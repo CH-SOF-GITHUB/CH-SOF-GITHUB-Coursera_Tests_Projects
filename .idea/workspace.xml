@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61f2353d-82d0-4260-85c0-9e3a8cf9aa0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Coursera_Intro_Selenium_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapeData/Books.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapeData/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapeData/scrapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Tests" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -68,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743694288847</updated>
       <workItem from="1743694289931" duration="2668000" />
-      <workItem from="1743697022778" duration="1335000" />
+      <workItem from="1743697022778" duration="4753000" />
     </task>
     <servers />
   </component>
