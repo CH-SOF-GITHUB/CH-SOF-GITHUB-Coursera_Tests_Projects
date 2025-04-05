@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61f2353d-82d0-4260-85c0-9e3a8cf9aa0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scrapeData/Books.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapeData/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapeData/scrapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapeData/TC02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapeData/web-scrape-with-selenium-and-beautiful-soup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapeData/scrapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapeData/TC01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chaker/PycharmProjects/Example_Tests&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,7 +69,11 @@
       <option name="presentableId" value="Default" />
       <updated>1743694288847</updated>
       <workItem from="1743694289931" duration="2668000" />
-      <workItem from="1743697022778" duration="4753000" />
+      <workItem from="1743697022778" duration="8612000" />
+      <workItem from="1743861295286" duration="4012000" />
+      <workItem from="1743865408297" duration="774000" />
+      <workItem from="1743866261740" duration="66000" />
+      <workItem from="1743866346796" duration="916000" />
     </task>
     <servers />
   </component>
