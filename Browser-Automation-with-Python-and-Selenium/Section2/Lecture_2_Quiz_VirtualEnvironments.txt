@@ -1,0 +1,37 @@
+Quiz: Python Virtual Environments
+What Python package is needed in order to install a virtual environment?
+a. virtualenv or venv
+b. HyperV
+c. VMWare
+
+If I install a python library into an activated virtual environment using pip , is it shared by other environments?
+a. Libraries I install with pip are shared across all environments
+b. Libraries I install with pip are shared by default but can be isolated if I choose
+c. Libraries I install with pip are isolated to the activated virtual environment by default
+
+Where are the scripts that activate a virtual environment kept?
+a. Under the virtual environment's own folder, in the Scripts directory (Windows) or bin directory (Mac/Linux)
+b. Under the system binaries folder - C:\Users{Username} (Windows), /usr/local/bin (Mac/Linux)
+c. Activation scripts must be written by the user
+
+Can I install different versions of python into virtual environments?
+a. No, virtual environments are always installed using the system's default version of python.
+b. Yes, but virtual environments do not support more than one environment with the same major version.
+c. Yes, any number of versions can be installed using separate environments.
+d. No, because only one version of python can exist on a system at any given time, and each installation overwrites the previous installation.
+
+Réponses:
+a. virtualenv or venv
+Le package nécessaire pour créer un environnement virtuel est virtualenv ou venv.
+
+
+c. Libraries I install with pip are isolated to the activated virtual environment by default
+Les bibliothèques installées avec pip dans un environnement virtuel activé sont isolées par défaut à cet environnement.
+
+
+a. Under the virtual environment's own folder, in the Scripts directory (Windows) or bin directory (Mac/Linux)
+Les scripts d'activation d'un environnement virtuel se trouvent dans le dossier de l'environnement, sous Scripts (Windows) ou bin (Mac/Linux).
+
+
+c. Yes, any number of versions can be installed using separate environments.
+Il est possible d'installer plusieurs versions de Python dans des environnements distincts.

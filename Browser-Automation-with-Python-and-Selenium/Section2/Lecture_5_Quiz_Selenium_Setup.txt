@@ -1,0 +1,30 @@
+Quiz: Setting Up Selenium
+
+1. How does python manipulate the web browser?
+a. By using `pip install selenium` python can manipulate the browser directly
+b. A separate webdriver must be installed through which the python selenium library can manipulate the browser
+c. Python uses the urllib library to connect to the browser and manipulate it.
+
+Response: b  A separate webdriver must be installed through which the python selenium library can manipulate the browser
+
+2. Who maintains webdrivers as of Selenium 3?
+a. The SeleniumHQ Team
+b. The browser vendors
+c. The Open Source community
+
+Réponse : b. The browser vendors
+Les webdrivers sont maintenus par les fournisseurs de navigateurs depuis Selenium 3.
+
+3. Where does Selenium 3 look for webdriver binaries/executables by default?
+a. There are no default locations. Because every system is different, the path must be provided when initializing the driver.
+b. C:\ drive for Win32 systems, /usr/local for Mac and Linux
+c. Selenium 3 uses the system's PATH environment variable to locate webdriver binaries/executables
+
+Réponse : c. Selenium 3 uses the system's PATH environment variable to locate webdriver binaries/executables
+Selenium 3 utilise la variable d'environnement PATH du système pour localiser les exécutables des webdrivers.
+
+4. Python and the selenium library are all that is needed to automate a web browser.
+a. True
+b. False
+
+Réponse: False

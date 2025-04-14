@@ -5,12 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61f2353d-82d0-4260-85c0-9e3a8cf9aa0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapeData/TC02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapeData/web-scrape-with-selenium-and-beautiful-soup.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ 4DvAnCeBoY-python-selenium-sample/LambdaTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Section2/Lecture_2_Quiz_VirtualEnvironments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Section2/Lecture_5_Quiz_Selenium_Setup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/doc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/original (2).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/script_test_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/script_test_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/section3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/section4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/section4class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/pages/homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/pages/sign_in_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/pages/sign_up_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/test/test_browserstack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambdatest/Src/PageObject/Locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambdatest/Src/PageObject/Pages/HomePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambdatest/Src/TestBase/WebDriverSetup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambdatest/Test/Scripts/test_Home_Page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambdatest/Test/TestSuite/TestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/ImplementedLocators/LocatorsPageFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/ImplementedLocators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/Account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/Login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/Login_fails.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/PageFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/browserdemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/Publishing/demo_actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sharanjeet-Packt -Pom/pages/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapeData/scrapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapeData/TC01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -36,22 +69,153 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/chaker/PycharmProjects/Example_Tests&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Python tests.Python tests in LambdaTest.py.executor": "Run",
+    "Python.LambdaTest.executor": "Debug",
+    "Python.Login.executor": "Debug",
+    "Python.TestRunner.executor": "Run",
+    "Python.browserdemo.executor": "Run",
+    "Python.demo_actions.executor": "Run",
+    "Python.script_test_3.executor": "Run",
+    "Python.script_test_4.executor": "Run",
+    "Python.test_browserstack.executor": "Run",
+    "Python.wiki.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/chaker/PycharmProjects/Example_Tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Python.script_test_4">
+    <configuration name="LambdaTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coursera_Intro_Selenium_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ 4DvAnCeBoY-python-selenium-sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ 4DvAnCeBoY-python-selenium-sample/LambdaTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coursera_Intro_Selenium_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lambdatest/Test/TestSuite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lambdatest/Test/TestSuite/TestRunner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script_test_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coursera_Intro_Selenium_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/script_test_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script_test_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coursera_Intro_Selenium_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/script_test_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in LambdaTest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Coursera_Intro_Selenium_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ 4DvAnCeBoY-python-selenium-sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ 4DvAnCeBoY-python-selenium-sample/LambdaTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.script_test_4" />
+        <item itemvalue="Python.script_test_3" />
+        <item itemvalue="Python tests.Python tests in LambdaTest.py" />
+        <item itemvalue="Python.LambdaTest" />
+        <item itemvalue="Python.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,11 +237,27 @@
       <workItem from="1743861295286" duration="4012000" />
       <workItem from="1743865408297" duration="774000" />
       <workItem from="1743866261740" duration="66000" />
-      <workItem from="1743866346796" duration="916000" />
+      <workItem from="1743866346796" duration="1451000" />
+      <workItem from="1743896604655" duration="2135000" />
+      <workItem from="1744131467804" duration="20415000" />
+      <workItem from="1744330336086" duration="398000" />
+      <workItem from="1744556772615" duration="12049000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$script_test_3.coverage" NAME="script_test_3 Coverage Results" MODIFIED="1744643695268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$Login.coverage" NAME="Login Coverage Results" MODIFIED="1744213295256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1744560710158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lambdatest/Test/TestSuite" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$browserdemo.coverage" NAME="browserdemo Coverage Results" MODIFIED="1744132211304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Packt/Publishing" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$.coverage" NAME=" Coverage Results" MODIFIED="1744561912553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ 4DvAnCeBoY-python-selenium-sample" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$wiki.coverage" NAME="wiki Coverage Results" MODIFIED="1744210545314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Packt/Publishing/ImplementedLocators" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$test_browserstack.coverage" NAME="test_browserstack Coverage Results" MODIFIED="1744227469082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BrowserStack/src/test" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$LambdaTest.coverage" NAME="LambdaTest Coverage Results" MODIFIED="1744561665899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ 4DvAnCeBoY-python-selenium-sample" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$script_test_4.coverage" NAME="script_test_4 Coverage Results" MODIFIED="1744647348737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$demo_actions.coverage" NAME="demo_actions Coverage Results" MODIFIED="1744133208962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Packt/Publishing" />
   </component>
 </project>
