@@ -1,0 +1,49 @@
+Quiz: The Webdriver
+1. What component actually interfaces with the web browser?
+a. The Python selenium library
+b. The virtual environment
+c. the webdriver (chromedriver, geckodriver, etc.)
+
+Réponse: c
+
+2. Which selenium method instructs the browser to navigate to a web address?
+a. get()
+b. go()
+c. navigate()
+
+Réponse: a
+
+3. Which command initializes a new connection to the Chrome browser?
+a. Browser = OpenChrome()
+b. browser.get()
+c. browser = webdriver.Chrome()
+
+Réponse: c
+
+4. What is a valid approach for finding an input element on a page using selenium?
+a. find_element_by_css_selector('input')
+b. find_input()
+c. Input_button = “//input”
+
+Réponse: a
+
+5. Choose the CSS Selector that correctly describes a button with an ID of "button1”
+a. button[id='button1']
+b. //button[@id='button1']
+c. button#butn1
+
+Réponse: a
+
+6. Which value belongs to an XPATH?
+a. input#btn1
+b. @input#btn1
+c. //input[@id='button1']
+
+Réponse: c
+
+7. How do I describe (Using an XPATH value) the element that is one level above the input element in the DOM hierarchy?
+a. //input <
+b. //input..
+c. //input/..
+
+Réponse: b

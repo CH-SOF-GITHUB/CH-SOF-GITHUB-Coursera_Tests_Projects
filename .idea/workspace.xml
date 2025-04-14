@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61f2353d-82d0-4260-85c0-9e3a8cf9aa0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ 4DvAnCeBoY-python-selenium-sample/LambdaTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Section2/Lecture_2_Quiz_VirtualEnvironments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Section2/Lecture_5_Quiz_Selenium_Setup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/doc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/original (2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/script_test_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/script_test_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/section3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/section4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/section4class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/pages/homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/pages/sign_in_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/pages/sign_up_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrowserStack_PageFactory_pip/src/test/test_browserstack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambdatest/Src/PageObject/Locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambdatest/Src/PageObject/Pages/HomePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambdatest/Src/TestBase/WebDriverSetup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambdatest/Test/Scripts/test_Home_Page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambdatest/Test/TestSuite/TestRunner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/ImplementedLocators/LocatorsPageFactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/ImplementedLocators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/Account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/Login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/Login_fails.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/PageFactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/LoggingScenarios/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/browserdemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/Publishing/demo_actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sharanjeet-Packt -Pom/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Questions/Lecture_7_Quiz_TheWebdriver.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Section2/Lecture_2_Quiz_VirtualEnvironments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Questions/Lecture_2_Quiz_VirtualEnvironments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Section2/Lecture_5_Quiz_Selenium_Setup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Questions/Lecture_5_Quiz_Selenium_Setup.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +64,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chaker\PycharmProjects\Coursera_Intro_Selenium_Project\Browser-Automation-with-Python-and-Selenium\Section3" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.script_test_4">
     <configuration name="LambdaTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Coursera_Intro_Selenium_Project" />
@@ -241,7 +213,7 @@
       <workItem from="1743896604655" duration="2135000" />
       <workItem from="1744131467804" duration="20415000" />
       <workItem from="1744330336086" duration="398000" />
-      <workItem from="1744556772615" duration="12049000" />
+      <workItem from="1744556772615" duration="12874000" />
     </task>
     <servers />
   </component>
@@ -257,7 +229,7 @@
     <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$wiki.coverage" NAME="wiki Coverage Results" MODIFIED="1744210545314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Packt/Publishing/ImplementedLocators" />
     <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$test_browserstack.coverage" NAME="test_browserstack Coverage Results" MODIFIED="1744227469082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BrowserStack/src/test" />
     <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$LambdaTest.coverage" NAME="LambdaTest Coverage Results" MODIFIED="1744561665899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ 4DvAnCeBoY-python-selenium-sample" />
-    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$script_test_4.coverage" NAME="script_test_4 Coverage Results" MODIFIED="1744647348737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$script_test_4.coverage" NAME="script_test_4 Coverage Results" MODIFIED="1744647366489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium" />
     <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$demo_actions.coverage" NAME="demo_actions Coverage Results" MODIFIED="1744133208962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Packt/Publishing" />
   </component>
 </project>

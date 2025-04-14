@@ -8,7 +8,7 @@ from BrowserStack_PageFactory_pip.src.pages.sign_in_page import SignInPage
 
 def test_browserstack():
     """
-    Test the BrowserStack_PageFactory_pip functionality.
+    Test the BrowserStack_install_PageFactory_pip functionality.
     """
     driver = webdriver.Chrome()
     # open the browserstack page
