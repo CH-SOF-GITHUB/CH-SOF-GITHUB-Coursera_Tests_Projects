@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61f2353d-82d0-4260-85c0-9e3a8cf9aa0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/suite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TCs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TCs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/example_testcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/example_testcase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/test-reports/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/config.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TCs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TestCases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/suite.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in TCs.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in TestCases.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Coursera_Intro_Selenium_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +164,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TCs.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TestCases.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -191,7 +189,7 @@
         <item itemvalue="Python.suite" />
         <item itemvalue="Python tests.Python tests for suite.test_suite" />
         <item itemvalue="Python tests.Python tests in suite.py" />
-        <item itemvalue="Python tests.Python tests in TCs.py" />
+        <item itemvalue="Python tests.Python tests in TestCases.py" />
         <item itemvalue="Python tests.Python tests for example_testcase.TestSequenceFunctions.test_samplep" />
       </list>
     </recent_temporary>
@@ -221,7 +219,7 @@
       <workItem from="1743896604655" duration="2135000" />
       <workItem from="1744131467804" duration="20415000" />
       <workItem from="1744330336086" duration="398000" />
-      <workItem from="1744556772615" duration="49216000" />
+      <workItem from="1744556772615" duration="49706000" />
     </task>
     <servers />
   </component>
