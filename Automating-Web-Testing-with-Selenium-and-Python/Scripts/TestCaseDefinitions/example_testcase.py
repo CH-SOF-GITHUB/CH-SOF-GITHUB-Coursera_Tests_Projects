@@ -1,46 +1,46 @@
-import os
-import sys
+import random
 import unittest
 
-import xmlrunner
-
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+import HTMLTestRunner
 
 
-class TestStringMethods(unittest.TestCase):
-    """ Example test for HtmlRunner. """
+class TestSequenceFunctions(unittest.TestCase):
 
-    def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+    def setUp(self):
+        self.seq = range(10)
 
-    def test_isupper(self):
-        self.assertTrue('FOO'.isupper())
-        self.assertFalse('Foo'.isupper())
+    def test_shuffle(self):
+        # make sure the shuffled sequence does not lose any elements
+        random.shuffle(self.seq)
+        self.seq.sort()
+        self.assertEqual(self.seq, range(10))
 
-    def test_split(self):
-        s = 'hello world'
-        self.assertEqual(s.split(), ['hello', 'world'])
-        # check that s.split fails when the separator is not a string
-        with self.assertRaises(TypeError):
-            s.split(2)
+        # should raise an exception for an immutable sequence
+        self.assertRaises(TypeError, random.shuffle, (1, 2, 3))
 
-    def test_error(self):
-        """ This test should be marked as error one. """
-        raise ValueError
+    @unittest.skip("Test Skipped1")
+    def test_choicep(self):
+        element = random.choice(self.seq)
+        self.assertTrue(element in self.seq)
 
-    def test_fail(self):
-        """ This test should fail. """
-        self.assertEqual(1, 2)
-
-    @unittest.skip("This is a skipped test.")
-    def test_skip(self):
-        """ This test should be skipped. """
-        pass
+    @unittest.skip("Test Skipped2")
+    def test_samplep(self):
+        with self.assertRaises(ValueError):
+            random.sample(self.seq, 20)
+        for element in random.sample(self.seq, 5):
+            self.assertTrue(element in self.seq)
 
 
-if __name__ == '__main__':
-    unittest.main(
-        testRunner=xmlrunner.XMLTestRunner(output='test-reports'),
-        # these make sure that some options that are not applicable
-        # remain hidden from the help menu.
-        failfast=False, buffer=False, catchbreak=False)
+suite = unittest.TestLoader().loadTestsFromTestCase(TestSequenceFunctions)
+unittest.TextTestRunner(verbosity=2).run(suite)
+
+outfile = open(
+    "C:\\Users\\chaker\\PycharmProjects\\Coursera_Intro_Selenium_Project\\Automating-Web-Testing-with-Selenium-and-Python\\Scripts\\TestCaseDefinitions\\test-reports\\Report.html",
+    "w")
+runner = HTMLTestRunner.HTMLTestRunner(
+    stream=outfile,
+    title='Test Report',
+    description='This demonstrates the report output by Prasanna.Yelsangikar.'
+)
+
+runner.run(suite)

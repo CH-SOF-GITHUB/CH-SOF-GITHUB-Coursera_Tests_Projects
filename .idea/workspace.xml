@@ -5,46 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61f2353d-82d0-4260-85c0-9e3a8cf9aa0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_2/22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_2/23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_2/24_clickable_dropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_2/24_hoverable_dropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_2/24_lists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_2/25_radio_buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_2/26_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_2/28_waits.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_3/31Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_3/33_alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_3/33_prompt_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_3/34.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Pages-HTML/section_3/cookies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/33_window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/35_events.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/Class/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/Class/element_has__attribute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/Html-Report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TCs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TestCaseDefinitions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/example_testcase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/test-reports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/_24_Zoom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/_26_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/_28_waits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/_28_waits_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/_31_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/_33_alerts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/_34_cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/__33_Alert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/_assertions_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/pyunitreport/HtmlTestResult.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/pyunitreport/HtmlTestRunner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/pyunitreport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/pyunitreport/template/report_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/Questions/Exam_TheInterview_Key.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/suite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/script_test_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium/script_test_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TCs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/TCs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/example_testcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/example_testcase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/test-reports/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/config.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +42,16 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
     "Python tests.Python tests for TCs.TestCasesPythonOrg.test_UpcomingEventsSectionPresentInAboutPage.executor": "Run",
+    "Python tests.Python tests for example_testcase.TestSequenceFunctions.test_samplep.executor": "Run",
     "Python tests.Python tests for example_testcase.TestStringMethods.executor": "Debug",
+    "Python tests.Python tests for suite.test_suite.executor": "Run",
     "Python tests.Python tests in Html-Report.py.executor": "Debug",
     "Python tests.Python tests in LambdaTest.py.executor": "Run",
     "Python tests.Python tests in TC001.py.executor": "Run",
-    "Python tests.Python tests in TCs.py.executor": "Run",
+    "Python tests.Python tests in TCs.py.executor": "Debug",
     "Python tests.Python tests in basic_test_HTMLTestRunner.py.executor": "Debug",
     "Python tests.Python tests in example_testcase.py.executor": "Run",
+    "Python tests.Python tests in suite.py.executor": "Run",
     "Python.33_window.executor": "Run",
     "Python.35_events.executor": "Run",
     "Python.LambdaTest.executor": "Debug",
@@ -105,6 +73,7 @@
     "Python.demo_actions.executor": "Run",
     "Python.script_test_3.executor": "Run",
     "Python.script_test_4.executor": "Run",
+    "Python.suite.executor": "Debug",
     "Python.test_browserstack.executor": "Run",
     "Python.wiki.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -129,8 +98,31 @@
       <recent name="C:\Users\chaker\PycharmProjects\Coursera_Intro_Selenium_Project\Browser-Automation-with-Python-and-Selenium\Section3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in TCs.py">
-    <configuration name="Python tests for example_testcase.TestStringMethods" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.suite">
+    <configuration name="suite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coursera_Intro_Selenium_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/suite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for example_testcase.TestSequenceFunctions.test_samplep" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Coursera_Intro_Selenium_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +134,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;example_testcase.TestStringMethods&quot;" />
+      <option name="_new_target" value="&quot;example_testcase.TestSequenceFunctions.test_samplep&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in Html-Report.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for suite.test_suite" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Coursera_Intro_Selenium_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,8 +150,8 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/Html-Report.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;suite.test_suite&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in TCs.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -178,7 +170,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in basic_test_HTMLTestRunner.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in suite.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Coursera_Intro_Selenium_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,33 +182,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/basic_test_HTMLTestRunner.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in example_testcase.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Coursera_Intro_Selenium_Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/example_testcase.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions/suite.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.suite" />
+        <item itemvalue="Python tests.Python tests for suite.test_suite" />
+        <item itemvalue="Python tests.Python tests in suite.py" />
         <item itemvalue="Python tests.Python tests in TCs.py" />
-        <item itemvalue="Python tests.Python tests for example_testcase.TestStringMethods" />
-        <item itemvalue="Python tests.Python tests in example_testcase.py" />
-        <item itemvalue="Python tests.Python tests in basic_test_HTMLTestRunner.py" />
-        <item itemvalue="Python tests.Python tests in Html-Report.py" />
+        <item itemvalue="Python tests.Python tests for example_testcase.TestSequenceFunctions.test_samplep" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +221,7 @@
       <workItem from="1743896604655" duration="2135000" />
       <workItem from="1744131467804" duration="20415000" />
       <workItem from="1744330336086" duration="398000" />
-      <workItem from="1744556772615" duration="45377000" />
+      <workItem from="1744556772615" duration="49216000" />
     </task>
     <servers />
   </component>
@@ -255,7 +231,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$script_test_3.coverage" NAME="script_test_3 Coverage Results" MODIFIED="1744643695268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Browser-Automation-with-Python-and-Selenium" />
     <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1744560710158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lambdatest/Test/TestSuite" />
-    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$.coverage" NAME=" Coverage Results" MODIFIED="1744811586981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$suite.coverage" NAME="suite Coverage Results" MODIFIED="1744815972959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions" />
+    <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$.coverage" NAME=" Coverage Results" MODIFIED="1744815757712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts/TestCaseDefinitions" />
     <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$cookies.coverage" NAME="cookies Coverage Results" MODIFIED="1744732863031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts" />
     <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$35_events.coverage" NAME="35_events Coverage Results" MODIFIED="1744734584419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automating-Web-Testing-with-Selenium-and-Python/Scripts" />
     <SUITE FILE_PATH="coverage/Coursera_Intro_Selenium_Project$test_browserstack.coverage" NAME="test_browserstack Coverage Results" MODIFIED="1744227469082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BrowserStack/src/test" />

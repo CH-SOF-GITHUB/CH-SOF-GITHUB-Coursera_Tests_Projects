@@ -1,9 +1,7 @@
 import logging
-import os
 import time
 import unittest
 
-import xmlrunner
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
@@ -86,26 +84,6 @@ class TestCasesPythonOrg(unittest.TestCase):
         # log.warning("driver closed")
 
 
+
 if __name__ == "__main__":
-    # Vérifiez si le dossier 'test-reports' existe, sinon créez-le
-    report_path = 'test-reports'
-    os.makedirs(report_path, exist_ok=True)
-    print(f"Les rapports seront générés dans : {os.path.abspath(report_path)}")
-
-    try:
-        unittest.main(
-            testRunner=xmlrunner.XMLTestRunner(output=report_path),
-            failfast=False, buffer=False, catchbreak=False
-        )
-        # Vérifiez si les fichiers XML sont créés
-        if os.path.exists(report_path):
-            print(f"Le dossier de rapport a été créé : {report_path}")
-            print(f"Fichiers générés : {os.listdir(report_path)}")
-        else:
-            print("Le dossier de rapport n'a pas été créé.")
-    except Exception as e:
-        print(f"Erreur lors de l'exécution des tests : {e}")
-
-# logging.basicConfig(stream=sys.stderr)
-# logging.getLogger("DummyLogger").setLevel(logging.INFO)
-# unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='outputFolder', report_title='Dummy report title test'))
+    pass
