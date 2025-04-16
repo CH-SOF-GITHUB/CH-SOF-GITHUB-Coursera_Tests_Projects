@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let answer = null;
+
+        function showPrompt() {
+            answer = window.confirm("Save data?");
+            if (answer) {
+                //some code
+                var name = prompt("What is your name ?");
+                if (name != null) {
+                    document.getElementById("result").innerText = "Hello Mr. " + name + "!";
+                }
+            } else {
+                //some code
+                document.getElementById("result").innerText = "Type your name is not acceptable";
+            }
+        }
+    </script>
+</head>
+<body ONLOAD="showPrompt()">
+<h1>Test de la boîte de dialogue prompt</h1>
+<p id="result"></p>
+</body>
+</html>

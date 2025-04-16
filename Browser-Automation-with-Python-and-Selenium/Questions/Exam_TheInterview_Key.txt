@@ -1,0 +1,84 @@
+Exam: The Interview
+
+As if automation weren't fun enough already, it turns out there are a lot of people who
+want to pay you to do it. If you're looking to get into automation as a profession, you
+need to display a solid foundation of browser automation principles. Let's review what
+we've covered so far.
+
+1. I have parent class named BaseElement with a text property that returns
+the element.text. Why - when creating a child class for an InputElement - is
+it useful to override its text property?
+a. Because when I ask for the text of an input element, I don't want the element.text. Rather, I want
+the value attribute which contains the text inside the input
+b. It's not useful
+
+Réponse: a
+
+2. Where does Selenium 3 look for your webdrivers by default?
+a. C:\ (Win32) or /usr/local (Mac and Linux)
+b. In the current user's home directory
+c. In your system PATH environment variable
+
+Réponse: c
+
+3. How would I find a button element with an id of "btn1" using a CSS
+Selector?
+a. button > btn1
+b. button[id='btn1']
+c. //button[@id='btn1']
+
+Réponse: b
+
+4. Page Objects be useful when they…
+a. Minimize duplicated code
+b. promote readable test cases that tell a clear story
+c. are so complex that they make it difficult for new users to learn the automation approach
+d. make writing automated tests fast and enjoyable
+
+Réponse: a,b, c
+
+5. What is required for me to automate a web browser using Python? (Choose all that apply)
+a. Python’s selenium library
+b. Java 8 or higher
+c. Node.JS
+d. Python
+e. A webdriver compatible with the browser we are automating
+
+Réponse: a, d, e
+
+6. Why are Explicit Waits a much better practice than time.sleep() when
+waiting for something on the page? (Choose all that apply)
+a. Explicit Waits can complete much earlier than the timeout if the desired state has arrived on the page
+b. sleep() can only wait up to 10 seconds
+c. sleep() usually waits much longer than is needed
+d. Explicit Waits raise a TimeoutException if the element isn't found, while sleep has no such functionality
+
+Réponse: a, c, d
+
+7. Choose all valid methods of locating elements with a selenium webdriver:
+a. ID
+b. COLOR
+c. NAME
+d. CSS_SELECTOR
+e. XPATH
+f. PARTIAL_LINK_TEXT
+g. TAG_NAME
+h. LINK_TEXT
+i. CLASS_NAME
+
+Réponse: a, c, d, e, f, g, h, i
+
+8. How do I indicate the parent of the current element using an XPATH?
+a. ../
+b. > .parent
+c. > nth_parent()
+d. /..
+
+Réponse: d
+
+9. Which webdriver method navigates to a URL in the browser?
+a. webdriver.go()
+b. webdriver.navigate()
+c. webdriver.get()
+
+Réponse: c

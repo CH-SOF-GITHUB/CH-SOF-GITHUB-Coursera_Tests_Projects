@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test des Cookies</title>
+    <script>
+        // Crée deux cookies
+        document.cookie = "user=JeanDupont; path=/";
+        document.cookie = "session=abc123; path=/";
+
+        // Fonction pour afficher les cookies dans la page
+        function showCookies() {
+            document.getElementById("cookieDisplay").textContent = document.cookie;
+        }
+    </script>
+</head>
+<body onload="showCookies()">
+<h1>Page de test des cookies</h1>
+<p>Cookies actuels : <span id="cookieDisplay"></span></p>
+</body>
+</html>

@@ -1,3 +1,5 @@
+import time
+
 from selenium import webdriver
 
 from section4class import *
