@@ -7,6 +7,8 @@ from TestCases import TestCasesPythonOrg
 
 def test_suite():
     suite = unittest.TestSuite()
+    suite.addTest(TestCasesPythonOrg("test_VerifyPython3DocsButton"))
+    suite.addTest(TestCasesPythonOrg("test_SearchNoResultsFound"))
     suite.addTest(TestCasesPythonOrg("test_UpcomingEventsSectionPresentInAboutPage"))
     return suite
 

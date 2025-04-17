@@ -30,11 +30,9 @@ class TestCasesPythonOrg(unittest.TestCase):
         # Hover the mouse over the Documentation link
         hover = actionChains.move_to_element(element_to_hover_over)
         hover.perform()
-        # Verify that Python 3 Docs button is present
+        # Verify that Python 3 Docs button is present and click on it and verify that we are redirected to correct page
         wait = WebDriverWait(browser, 10)
-        DocsBtn = wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='documentation']/ul/li[10]/p[2]/a")))
-        # Click on it and verify that we are redirected to correct page
-        DocsBtn.click()
+        wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='documentation']/ul/li[10]/p[2]/a"))).click()
         # wait for 3 s to load a page response
         time.sleep(3)
         assert browser.current_url == "https://docs.python.org/3/"
