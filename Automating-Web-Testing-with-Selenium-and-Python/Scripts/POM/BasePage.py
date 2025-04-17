@@ -32,3 +32,11 @@ class BasePage:
         search_input.send_keys(search_text)
         btn_go = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(by_locator_go))
         btn_go.click()
+
+    def assert_Upcoming_Events_text(self, by_locator, expectedText):
+        upcoming_events = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator))
+        assert expectedText in upcoming_events.text
+
+    def clickAboutBtn(self, by_locator):
+        aboutBtn = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(by_locator))
+        aboutBtn.click()

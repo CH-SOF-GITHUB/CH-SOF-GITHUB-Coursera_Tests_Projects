@@ -3,7 +3,9 @@ import unittest
 
 from selenium import webdriver
 
+from BasePageObject import AboutPage
 from BasePageObject import HomePage
+from Locators import AboutPageLocators
 from Locators import HomePageLocators
 from Locators import SearchPageLocators
 
@@ -54,6 +56,25 @@ class TestCases001And002(TestPyOrgBase):
         self.home.assert_elem_text(SearchPageLocators.SEARCH_RESULT, "No results found.")
         status = "passed"
         print("TC002: Search - no results found with status: " + status)
+
+
+class TestTC003(TestPyOrgBase):
+
+    def setUp(self):
+        super().setUp()
+        self.about = AboutPage(self.driver)
+
+    # TC003: Upcoming Events section present in About page
+    def test_TC003(self, status="failed"):
+        self.status = status
+        # self.about.clickAboutBtn(AboutPageLocators.ABOUT_BUTTON)
+        # Attendre 3 secondes pour le chargement de la réponse
+        time.sleep(3)
+        assert self.driver.current_url == "https://www.python.org/about/"
+        self.about.assert_Upcoming_Events_text(AboutPageLocators.UPCOMING_EVENTS_SECTION, "Upcoming Events")
+        status = "passed"
+        print("TC003: Upcoming Events section present in About page with status: " + status)
+
 
 
 if __name__ == '__main__':
