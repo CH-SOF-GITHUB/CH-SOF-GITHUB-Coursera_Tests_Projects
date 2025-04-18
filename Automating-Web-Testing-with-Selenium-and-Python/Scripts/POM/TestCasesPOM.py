@@ -39,6 +39,9 @@ class TestCases001And002(TestPyOrgBase):
     def test_TC0O1(self, status="failed"):
         self.status = status
         self.home.to_hover(HomePageLocators.DOCUMENTATION_TO_HOVER)
+        # verify that Python 3 Docs button is present
+        assert self.home.verifyPresentElement(
+            HomePageLocators.PYTHON3_BUTTON), "Python 3 Docs button not found on the page"
         self.home.clickBtn(HomePageLocators.PYTHON3_BUTTON)
         # wait for 3 s to load a page response
         time.sleep(3)
@@ -57,6 +60,12 @@ class TestCases001And002(TestPyOrgBase):
         status = "passed"
         print("TC002: Search - no results found with status: " + status)
 
+    def test_TC003(self, status="failed"):
+        self.status = status
+        assert self.driver.current_url == "https://www.python.org/"
+        status = "passed"
+        print("TC003: Url Home page with status: " + status)
+
 
 class TestTC003(TestPyOrgBase):
 
@@ -65,15 +74,23 @@ class TestTC003(TestPyOrgBase):
         self.about = AboutPage(self.driver)
 
     # TC003: Upcoming Events section present in About page
-    def test_TC003(self, status="failed"):
+    def test_TC004(self, status="failed"):
         self.status = status
         # self.about.clickAboutBtn(AboutPageLocators.ABOUT_BUTTON)
         # Attendre 3 secondes pour le chargement de la réponse
         time.sleep(3)
-        assert self.driver.current_url == "https://www.python.org/about/"
+        # Verify Upcoming Events section is present
+        assert self.about.verifyPresentElement(
+            AboutPageLocators.UPCOMING_EVENTS_SECTION), "Upcoming events section not found in this page"
         self.about.assert_Upcoming_Events_text(AboutPageLocators.UPCOMING_EVENTS_SECTION, "Upcoming Events")
         status = "passed"
-        print("TC003: Upcoming Events section present in About page with status: " + status)
+        print("TC004: Upcoming Events section present in About page with status: " + status)
+
+    def test_TC005(self, status="failed"):
+        self.status = status
+        self.assertEqual(self.driver.title, "About Python™ | Python.org")
+        status = "passed"
+        print("TC005: Title about page with status: " + status)
 
 
 
