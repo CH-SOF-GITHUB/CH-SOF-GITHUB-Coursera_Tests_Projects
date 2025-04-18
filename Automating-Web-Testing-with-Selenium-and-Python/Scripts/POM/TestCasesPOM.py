@@ -26,7 +26,7 @@ class TestPyOrgBase(unittest.TestCase):
             self.driver.quit()
 
 
-class TestCases001And002(TestPyOrgBase):
+class TestCases001002003(TestPyOrgBase):
     """
         TBD
     """
@@ -67,7 +67,7 @@ class TestCases001And002(TestPyOrgBase):
         print("TC003: Url Home page with status: " + status)
 
 
-class TestTC003(TestPyOrgBase):
+class TestTC004005(TestPyOrgBase):
 
     def setUp(self):
         super().setUp()
