@@ -18,7 +18,7 @@ if __name__ == '__main__':
     runner = HTMLTestRunner(
         verbosity=2,
         output='pomReports',
-        report_title='Test cases Python POM Results',
+        report_title='Test cases Python Page_Objects_Models Results',
         report_name='rapport html des tests avec pom python.org',
         open_in_browser=True
     )
