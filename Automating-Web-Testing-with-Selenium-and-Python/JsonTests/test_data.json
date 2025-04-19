@@ -1,0 +1,28 @@
+{
+  "testCases": [
+    {
+      "id": "TC001",
+      "description": "Validate login functionality",
+      "input": {
+        "username": "test_user",
+        "password": "securePass123"
+      },
+      "expectedOutput": {
+        "status": "success",
+        "message": "Login successful"
+      }
+    },
+    {
+      "id": "TC002",
+      "description": "Invalid login attempt",
+      "input": {
+        "username": "invalid_user",
+        "password": "wrongPass"
+      },
+      "expectedOutput": {
+        "status": "failure",
+        "message": "Invalid credentials"
+      }
+    }
+  ]
+}
