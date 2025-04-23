@@ -15,6 +15,10 @@ def setUp(request):
     driver.quit()
 
 
+@pytest.fixture(autouse=True)
+def env_setup(monkeypatch):
+    monkeypatch.setenv("ENVIRONMENT", "local")
+
 def pytest_html_report_title(report):
     report.title = "Pytest HTML Report Example"
 

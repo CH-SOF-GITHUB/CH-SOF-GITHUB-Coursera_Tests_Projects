@@ -1,4 +1,5 @@
 import logging
+import os
 import time
 import unittest
 
@@ -13,12 +14,39 @@ logging.basicConfig()
 log = logging.getLogger("DummyLogger")
 
 
+# logging.basicConfig(level=logging.DEBUG)
+# mylogger = logging.getLogger()
+
 @pytest.fixture(scope="class")
 def setUp(request):
+    print("WebDriver initialized")
     driver = webdriver.Chrome()
     request.cls.driver = driver
     yield
     driver.quit()
+    print("WebDriver closed")
+
+
+def is_local_env():
+    if os.getenv("ENVIRONMENT") == "local":
+        return True
+    return False
+
+
+def get_os_env():
+    env = os.getenv("ENVIRONMENT")
+    if env is None:
+        raise OSError("Local Environment variable ENVIRONMENT not set")
+    return env.lower()
+
+
+class test_ENVIRONMENT(unittest.TestCase):
+    # TC000: verify ENVIRONMENT setenv
+    def test_environment(self):
+        result = is_local_env()
+        assert result == True
+        env = get_os_env()
+        print("Environment Test Passed ===> " + env)
 
 
 @pytest.mark.usefixtures("setUp")
@@ -66,3 +94,7 @@ class test_CasesPythonOrg(unittest.TestCase):
         UpcomingEventsSection = wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event-widget')))
         assert "Upcoming Events" in UpcomingEventsSection.text
         print("TC003: Upcoming Events section is present in about page passed")
+
+
+if __name__ == "__main__":
+    unittest.main()
